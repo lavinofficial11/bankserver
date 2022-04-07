@@ -1,0 +1,82 @@
+                       Server Creation - Express / Node JS
+                -----------------------------------------------------
+
+                                        command
+                                  ----------------------
+
+                        1. create package.json - npm init
+
+                        2. Install Express -  npm i express
+
+                        3. to run server - node index.js/ nodemon index.js
+
+                        4. to install nodemon - sudo npm i -g nodemon
+
+                        5. Install jsonwebtoken - npm i jsonwebtoken
+
+                        6. Install mongoose - npm i mongoose
+
+                        7. Install cors - npm i cors
+
+
+
+                                Steps - server Creation
+                        -------------------------------------------
+
+                        1. create folder for Server
+
+                        2. create package.json 
+
+                        3. Install Express
+
+                        4. create index.js file
+
+                        5. Import express in index.js
+
+                        6. create an app using express
+
+                        7. set up the port number 
+
+                        8. resolve http reqst
+
+                        9. run server
+                        
+                        10. parse json data in index.js
+
+                        11. Middlewares - (req,res,next)=>{}
+
+                                11.1 Application specific Middlewares
+
+                                11.2 Router specific Middlewares
+
+                        12. JWT Token - To authenticate user - 
+
+                                12.1 Token generation - sign()
+
+                                12.2 Token Validation - verify()
+
+                        13. Db Connection 
+
+                                13.1 Install mongoose
+
+                                13.2 Import mongoose
+
+                                13.3 Define Connection string
+
+                                13.4 Create model
+
+                                13.5 export model
+
+                        14. Promise - To resolve asynchronous events
+
+                                14.1 then() - resolved state
+
+                                14.2 catch() - reject state
+
+                        15. cors - cross origin resource shairing
+
+                                15.1 Install cors
+
+                                15.2 Import index.js
+
+                                15.3 Use cors to specify the origin in server app
